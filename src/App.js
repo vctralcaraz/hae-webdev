@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom'
 
 import Layout from './hoc/Layout/Layout'
 
@@ -7,7 +8,13 @@ class App extends Component {
     return (
       <div>
         <Layout>
-
+          <Switch>
+            <Route path='/services' />
+            <Route path='/bio' />
+            <Route path='/portfolio' />
+            <Route path='/contact' />
+            <Route path='/' />
+          </Switch>
         </Layout>
       </div>
     );
@@ -39,3 +46,8 @@ export default App;
 // bio
 // portfolio
 // contact info
+
+// colors:
+// Primary: #116060
+// Secondary: #178017 Compliment: #2E9A2E
+// Secondary: #1C346B
