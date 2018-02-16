@@ -6,11 +6,15 @@
     flex-flow: column;
     align-items: center;
     height: 100%;
-    float: right;
+    /* float: right; */
 }
 
 @media (min-width: 500px) {
     .NavbarItems {
+        flex-flow: row;
+    }
+
+    .NavbarBrand {
         flex-flow: row;
     }
 }

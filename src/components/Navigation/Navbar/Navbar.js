@@ -1,12 +1,14 @@
 import React from 'react'
 
-import Aux from '../../../hoc/Auxiliary/Auxiliary'
 import NavbarItems from './NavbarItems/NavbarItems'
+import classes from './Navbar.css'
 
 const navbar = (props) => (
-    <Aux>
-        <NavbarItems />
-    </Aux>
+    <header className={ classes.Navbar }>
+        <nav>
+            <NavbarItems />
+        </nav>
+    </header>
 )
 
 export default navbar

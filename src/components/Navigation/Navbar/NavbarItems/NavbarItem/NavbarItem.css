@@ -6,7 +6,7 @@
 }
 
 .NavbarItem a {
-    color: #2E9A2E;
+    color: #363636;
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
@@ -16,7 +16,7 @@
 .NavbarItem a:hover,
 .NavbarItem a:active,
 .NavbarItem a.active {
-    color: #2E9A2E;
+    color: #363636;
 }
 
 @media (min-width: 500px){
@@ -38,8 +38,8 @@
     .NavbarItem a:hover,
     .NavbarItem a:active,
     .NavbarItem a.active {
-        background-color: #116060;
-        border-bottom: 4px solid #2E9A2E;
+        /* background-color: #468499; */
+        border-bottom: 4px solid #69c6e5;
         color: white;
     }
 }
